@@ -32,11 +32,7 @@ namespace Game.Systems
             }
             else
             {
-                Vector3 targetDirection = (target.transform.position - _controller.transform.position).normalized;
-                targetDirection.y = 0f; 
-                Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
-                _controller.transform.rotation = Quaternion.Slerp(_controller.transform.rotation, targetRotation,
-                    character.RotationSpeed * Time.deltaTime);
+                _controller.transform.LookAt(target.transform.position);
             }
         }
     }

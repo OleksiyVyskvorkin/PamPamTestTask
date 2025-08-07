@@ -5,7 +5,6 @@ using Game.Systems;
 using UnityEngine;
 using UnityEngine.UI;
 using Zenject;
-using static UnityEditor.PlayerSettings;
 
 namespace Game.UI
 {

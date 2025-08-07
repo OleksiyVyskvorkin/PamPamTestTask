@@ -79,7 +79,7 @@ MonoBehaviour:
     <LayerMask>k__BackingField:
       serializedVersion: 2
       m_Bits: 129
-    _angleToStartShoot: 30
+    _angleToStartShoot: 50
     _startProjectilePosition: {fileID: 7165724145170776797}
   <ColorSwitcher>k__BackingField:
     _meshRenderer: {fileID: 2552944083264408496}

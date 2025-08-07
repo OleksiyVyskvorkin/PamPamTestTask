@@ -48,11 +48,7 @@ namespace Game.Systems
             }
             else
             {
-                Vector3 targetDirection = (Target.transform.position - Unit.transform.position).normalized;
-                targetDirection.y = 0f;
-                Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
-                Unit.transform.rotation = Quaternion.Slerp(Unit.transform.rotation, targetRotation,
-                    Unit.RotationSpeed * Time.deltaTime);
+                Unit.transform.LookAt(Target.transform.position);
             }
         }
 

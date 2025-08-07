@@ -17,22 +17,22 @@ MonoBehaviour:
       type: 3}
     <Waves>k__BackingField:
     - <StartTime>k__BackingField: 3
-      <EndTime>k__BackingField: 15
+      <EndTime>k__BackingField: 60
       <SpawnableUnits>k__BackingField:
-      - <Count>k__BackingField: 2
+      - <Count>k__BackingField: 8
         <EnemyType>k__BackingField: 0
-      - <Count>k__BackingField: 2
+      - <Count>k__BackingField: 10
         <EnemyType>k__BackingField: 1
-      - <Count>k__BackingField: 2
+      - <Count>k__BackingField: 8
         <EnemyType>k__BackingField: 2
-    - <StartTime>k__BackingField: 15
-      <EndTime>k__BackingField: 35
+    - <StartTime>k__BackingField: 60
+      <EndTime>k__BackingField: 120
       <SpawnableUnits>k__BackingField:
-      - <Count>k__BackingField: 2
+      - <Count>k__BackingField: 10
         <EnemyType>k__BackingField: 0
-      - <Count>k__BackingField: 2
+      - <Count>k__BackingField: 15
         <EnemyType>k__BackingField: 1
-      - <Count>k__BackingField: 2
+      - <Count>k__BackingField: 20
         <EnemyType>k__BackingField: 2
   - <LevelPrefab>k__BackingField: {fileID: 660829565106325794, guid: 25eed3cfde79c4548be210ac7c2be3a6,
       type: 3}
